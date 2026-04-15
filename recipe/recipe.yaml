@@ -3,7 +3,7 @@ schema_version: 1
 
 context:
   name: django-treenode
-  version: "0.23.3"
+  version: "0.24.0"
 
 package:
   name: ${{ name|lower }}
@@ -11,7 +11,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/django_treenode-${{ version }}.tar.gz
-  sha256: 714c825d5b925a3d2848d0709f29973941ea41a606b8e2b64cbec46010a8cce3
+  sha256: 7ad2198620c285ebaa9a75d0bdcb9164c5e88c084f4c3e8f765ed0fa44cbd0d6
 
 build:
   number: 0
